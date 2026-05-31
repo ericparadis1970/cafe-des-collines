@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activités | Café des Collines</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-stone-50 text-stone-800 font-sans antialiased scroll-smooth flex flex-col min-h-screen">
+
+    <header class="bg-white shadow-sm sticky top-0 z-50 border-b border-stone-200">
+        <div class="max-w-6xl mx-auto px-4 py-3 flex flex-wrap justify-between items-center">
+            <a href="index.html" class="flex items-center space-x-4">
+                <img src="Images/CDC_Logo.jpg" alt="Logo Café des Collines"
+                    class="h-16 md:h-20 w-auto rounded-full object-contain shadow-sm border border-stone-100">
+                <div class="flex flex-col">
+                    <span class="text-xl md:text-2xl font-black text-[#044234] tracking-tight leading-none">Café des
+                        Collines</span>
+                    <span
+                        class="text-[10px] md:text-xs font-bold text-amber-600 tracking-wider uppercase mt-1">Ensemble,
+                        on chemine</span>
+                </div>
+            </a>
+
+            <nav
+                class="w-full md:w-auto mt-4 md:mt-0 flex justify-center space-x-4 md:space-x-8 text-sm md:text-base font-semibold text-stone-600">
+                <a href="index.html"
+                    class="hover:text-[#044234] transition border-b-2 border-transparent hover:border-amber-500 pb-1">Accueil</a>
+                <a href="a-propos.html"
+                    class="hover:text-[#044234] transition border-b-2 border-transparent hover:border-amber-500 pb-1">À
+                    propos</a>
+                <!-- L'onglet Activités est maintenant en surbrillance -->
+                <a href="activites.html" class="text-[#044234] border-b-2 border-amber-500 pb-1">Activités</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="flex-grow">
+        <section class="bg-[#044234] text-white py-12 md:py-16 px-4">
+            <div class="max-w-4xl mx-auto text-center">
+                <h1 class="text-3xl md:text-5xl font-extrabold mb-4">Nos Activités</h1>
+                <p class="text-lg md:text-xl text-stone-200 max-w-2xl mx-auto">
+                    Apprendre, échanger, se divertir et grandir ensemble dans un cadre inclusif et stimulant.
+                </p>
+            </div>
+        </section>
+
+        <section class="py-16 px-4 bg-white">
+            <div class="max-w-7xl mx-auto">
+                <div class="max-w-3xl mx-auto text-center mb-12">
+                    <div
+                        class="inline-flex items-center justify-center p-3 bg-stone-100 rounded-full mb-4 text-[#044234]">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253">
+                            </path>
+                        </svg>
+                    </div>
+                    <h2 class="text-3xl font-bold text-[#044234] mb-6">Éducation Populaire</h2>
+                    <p class="text-lg text-stone-600 leading-relaxed">
+                        L'organisme propose des activités visant le développement des connaissances, des compétences
+                        personnelles et sociales, ainsi que le renforcement du pouvoir d'agir des individus, à travers
+                        des thématiques variées liées à la vie quotidienne, aux relations interpersonnelles et à la
+                        participation citoyenne.
+                    </p>
+                </div>
+
+                <!-- Grille des activités d'éducation -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+                    <!-- Tuile -->
+                    <div
+                        class="bg-stone-50 border-l-4 border-[#044234] p-4 rounded-r-lg shadow-sm hover:shadow-md transition flex items-center space-x-3">
+                        <svg class="w-5 h-5 text-[#044234] flex-shrink-0" fill="none" stroke="currentColor"
+                            viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                        <span class="text-stone-700 font-medium text-sm">Organisation du temps et des priorités</span>
+                    </div>
+                    <div
+                        class="bg-stone-50 border-l-4 border-[#044234] p-4 rounded-r-lg shadow-sm hover:shadow-md transition flex items-center space-x-3">
+                        <svg class="w-5 h-5 text-[#044234] flex-shrink-0" fill="none" stroke="currentColor"
+                            viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                        <span class="text-stone-700 font-medium text-sm">Cuisine économique et planification</span>
+                    </div>
+                    <div
+                        class="bg-stone-50 border-l-4 border-[#044234] p-4 rounded-r-lg shadow-sm hover:shadow-md transition flex items-center space-x-3">
+                        <svg class="w-5 h-5 text-[#044234] flex-shrink-0" fill="none" stroke="currentColor"
+                            viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                        <span class="text-stone-700 font-medium text-sm">Comprendre ses droits</span>
+                    </div>
+                    <div
+                        class="bg-stone-50 border-l-4 border-[#044234] p-4 rounded-r-lg shadow-sm hover:shadow-md transition flex items-center space-x-3">
+                        <svg class="w-5 h-5 text-[#044234] flex-shrink-0" fill="none" stroke="currentColor"
+                            viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                        <span class="text-stone-700 font-medium text-sm">Gestion du stress et relaxation</span>
+                    </div>
+                    <div
+                        class="bg-stone-50 border-l-4 border-[#044234] p-4 rounded-r-lg shadow-sm hover:shadow-md transition flex items-center space-x-3">
+                        <svg class="w-5 h-5 text-[#044234] flex-shrink-0" fill="none" stroke="currentColor"
+                            viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                        <span class="text-stone-700 font-medium text-sm">Connaissance de soi</span>
+                    </div>
+                    <div
+                        class="bg-stone-50 border-l-4 border-[#044234] p-4 rounded-r-lg shadow-sm hover:shadow-md transition flex items-center space-x-3">
+                        <svg class="w-5 h-5 text-[#044234] flex-shrink-0" fill="none" stroke="currentColor"
+                            viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                        <span class="text-stone-700 font-medium text-sm">Estime et affirmation de soi</span>
+                    </div>
+                    <div
+                        class="bg-stone-50 border-l-4 border-[#044234] p-4 rounded-r-lg shadow-sm hover:shadow-md transition flex items-center space-x-3">
+                        <svg class="w-5 h-5 text-[#044234] flex-shrink-0" fill="none" stroke="currentColor"
+                            viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                        <span class="text-stone-700 font-medium text-sm">Prise de décision</span>
+                    </div>
+                    <div
+                        class="bg-stone-50 border-l-4 border-[#044234] p-4 rounded-r-lg shadow-sm hover:shadow-md transition flex items-center space-x-3">
+                        <svg class="w-5 h-5 text-[#044234] flex-shrink-0" fill="none" stroke="currentColor"
+                            viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                        <span class="text-stone-700 font-medium text-sm">Fixation d'objectifs personnels</span>
+                    </div>
+                    <div
+                        class="bg-stone-50 border-l-4 border-[#044234] p-4 rounded-r-lg shadow-sm hover:shadow-md transition flex items-center space-x-3">
+                        <svg class="w-5 h-5 text-[#044234] flex-shrink-0" fill="none" stroke="currentColor"
+                            viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                        <span class="text-stone-700 font-medium text-sm">Communication bienveillante</span>
+                    </div>
+                    <div
+                        class="bg-stone-50 border-l-4 border-[#044234] p-4 rounded-r-lg shadow-sm hover:shadow-md transition flex items-center space-x-3">
+                        <svg class="w-5 h-5 text-[#044234] flex-shrink-0" fill="none" stroke="currentColor"
+                            viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                        <span class="text-stone-700 font-medium text-sm">Résolution de conflits</span>
+                    </div>
+                    <div
+                        class="bg-stone-50 border-l-4 border-[#044234] p-4 rounded-r-lg shadow-sm hover:shadow-md transition flex items-center space-x-3">
+                        <svg class="w-5 h-5 text-[#044234] flex-shrink-0" fill="none" stroke="currentColor"
+                            viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                        <span class="text-stone-700 font-medium text-sm">Établir des limites saines</span>
+                    </div>
+                    <div
+                        class="bg-stone-50 border-l-4 border-[#044234] p-4 rounded-r-lg shadow-sm hover:shadow-md transition flex items-center space-x-3">
+                        <svg class="w-5 h-5 text-[#044234] flex-shrink-0" fill="none" stroke="currentColor"
+                            viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                        <span class="text-stone-700 font-medium text-sm">Développer des relations positives</span>
+                    </div>
+                    <div
+                        class="bg-stone-50 border-l-4 border-[#044234] p-4 rounded-r-lg shadow-sm hover:shadow-md transition flex items-center space-x-3">
+                        <svg class="w-5 h-5 text-[#044234] flex-shrink-0" fill="none" stroke="currentColor"
+                            viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                        <span class="text-stone-700 font-medium text-sm">Atelier d'écriture ou d'expression</span>
+                    </div>
+                    <div
+                        class="bg-stone-50 border-l-4 border-[#044234] p-4 rounded-r-lg shadow-sm hover:shadow-md transition flex items-center space-x-3">
+                        <svg class="w-5 h-5 text-[#044234] flex-shrink-0" fill="none" stroke="currentColor"
+                            viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                        <span class="text-stone-700 font-medium text-sm">Esprit critique et actualité</span>
+                    </div>
+                    <div
+                        class="bg-stone-50 border-l-4 border-[#044234] p-4 rounded-r-lg shadow-sm hover:shadow-md transition flex items-center space-x-3">
+                        <svg class="w-5 h-5 text-[#044234] flex-shrink-0" fill="none" stroke="currentColor"
+                            viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                        <span class="text-stone-700 font-medium text-sm">Participation citoyenne</span>
+                    </div>
+                    <div
+                        class="bg-stone-50 border-l-4 border-[#044234] p-4 rounded-r-lg shadow-sm hover:shadow-md transition flex items-center space-x-3">
+                        <svg class="w-5 h-5 text-[#044234] flex-shrink-0" fill="none" stroke="currentColor"
+                            viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                        <span class="text-stone-700 font-medium text-sm">Bénévolat et engagement</span>
+                    </div>
+                    <div
+                        class="bg-stone-50 border-l-4 border-[#044234] p-4 rounded-r-lg shadow-sm hover:shadow-md transition flex items-center space-x-3">
+                        <svg class="w-5 h-5 text-[#044234] flex-shrink-0" fill="none" stroke="currentColor"
+                            viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                        <span class="text-stone-700 font-medium text-sm">Comprendre les enjeux sociaux</span>
+                    </div>
+                    <div
+                        class="bg-stone-50 border-l-4 border-[#044234] p-4 rounded-r-lg shadow-sm hover:shadow-md transition flex items-center space-x-3">
+                        <svg class="w-5 h-5 text-[#044234] flex-shrink-0" fill="none" stroke="currentColor"
+                            viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                        <span class="text-stone-700 font-medium text-sm">Discussion (sujets de société)</span>
+                    </div>
+                    <div
+                        class="bg-stone-50 border-l-4 border-[#044234] p-4 rounded-r-lg shadow-sm hover:shadow-md transition flex items-center space-x-3">
+                        <svg class="w-5 h-5 text-[#044234] flex-shrink-0" fill="none" stroke="currentColor"
+                            viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                        <span class="text-stone-700 font-medium text-sm">Cours de langue</span>
+                    </div>
+                    <div
+                        class="bg-stone-50 border-l-4 border-[#044234] p-4 rounded-r-lg shadow-sm hover:shadow-md transition flex items-center space-x-3">
+                        <svg class="w-5 h-5 text-[#044234] flex-shrink-0" fill="none" stroke="currentColor"
+                            viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                        <span class="text-stone-700 font-medium text-sm">Revue de l'actualité</span>
+                    </div>
+                    <div
+                        class="bg-stone-50 border-l-4 border-[#044234] p-4 rounded-r-lg shadow-sm hover:shadow-md transition flex items-center space-x-3">
+                        <svg class="w-5 h-5 text-[#044234] flex-shrink-0" fill="none" stroke="currentColor"
+                            viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                        <span class="text-stone-700 font-medium text-sm">Initiation à la pleine conscience</span>
+                    </div>
+                    <div
+                        class="bg-stone-50 border-l-4 border-[#044234] p-4 rounded-r-lg shadow-sm hover:shadow-md transition flex items-center space-x-3">
+                        <svg class="w-5 h-5 text-[#044234] flex-shrink-0" fill="none" stroke="currentColor"
+                            viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                        <span class="text-stone-700 font-medium text-sm">Saines habitudes de vie</span>
+                    </div>
+                    <div
+                        class="bg-stone-50 border-l-4 border-[#044234] p-4 rounded-r-lg shadow-sm hover:shadow-md transition flex items-center space-x-3">
+                        <svg class="w-5 h-5 text-[#044234] flex-shrink-0" fill="none" stroke="currentColor"
+                            viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                        <span class="text-stone-700 font-medium text-sm">Sommeil et équilibre de vie</span>
+                    </div>
+                    <div
+                        class="bg-stone-50 border-l-4 border-[#044234] p-4 rounded-r-lg shadow-sm hover:shadow-md transition flex items-center space-x-3">
+                        <svg class="w-5 h-5 text-[#044234] flex-shrink-0" fill="none" stroke="currentColor"
+                            viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                        <span class="text-stone-700 font-medium text-sm">Réflexion (bonheur et valeurs)</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-16 px-4 bg-stone-100">
+            <div class="max-w-7xl mx-auto">
+                <div class="max-w-3xl mx-auto text-center mb-12">
+                    <div
+                        class="inline-flex items-center justify-center p-3 bg-amber-100 rounded-full mb-4 text-amber-600">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z">
+                            </path>
+                        </svg>
+                    </div>
+                    <h2 class="text-3xl font-bold text-[#044234] mb-6">Loisirs et Détente</h2>
+                    <p class="text-lg text-stone-600 leading-relaxed">
+                        Des activités favorisant la création de liens sociaux, le sentiment d'appartenance et la
+                        participation active à la vie collective. Des occasions d'échanges et de détente dans un cadre
+                        inclusif et accessible.
+                    </p>
+                </div>
+
+                <!-- Grille des activités de loisirs -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+                    <!-- Tuile -->
+                    <div
+                        class="bg-white border-l-4 border-amber-500 p-4 rounded-r-lg shadow-sm hover:shadow-md transition flex items-center space-x-3">
+                        <span class="w-2 h-2 bg-amber-400 rounded-full flex-shrink-0"></span>
+                        <span class="text-stone-700 font-medium text-sm">Café-rencontre</span>
+                    </div>
+                    <div
+                        class="bg-white border-l-4 border-amber-500 p-4 rounded-r-lg shadow-sm hover:shadow-md transition flex items-center space-x-3">
+                        <span class="w-2 h-2 bg-amber-400 rounded-full flex-shrink-0"></span>
+                        <span class="text-stone-700 font-medium text-sm">Soirées jeux de société</span>
+                    </div>
+                    <div
+                        class="bg-white border-l-4 border-amber-500 p-4 rounded-r-lg shadow-sm hover:shadow-md transition flex items-center space-x-3">
+                        <span class="w-2 h-2 bg-amber-400 rounded-full flex-shrink-0"></span>
+                        <span class="text-stone-700 font-medium text-sm">Discussion libre / thématiques</span>
+                    </div>
+                    <div
+                        class="bg-white border-l-4 border-amber-500 p-4 rounded-r-lg shadow-sm hover:shadow-md transition flex items-center space-x-3">
+                        <span class="w-2 h-2 bg-amber-400 rounded-full flex-shrink-0"></span>
+                        <span class="text-stone-700 font-medium text-sm">Repas et cuisine collective</span>
+                    </div>
+                    <div
+                        class="bg-white border-l-4 border-amber-500 p-4 rounded-r-lg shadow-sm hover:shadow-md transition flex items-center space-x-3">
+                        <span class="w-2 h-2 bg-amber-400 rounded-full flex-shrink-0"></span>
+                        <span class="text-stone-700 font-medium text-sm">Marche en groupe</span>
+                    </div>
+                    <div
+                        class="bg-white border-l-4 border-amber-500 p-4 rounded-r-lg shadow-sm hover:shadow-md transition flex items-center space-x-3">
+                        <span class="w-2 h-2 bg-amber-400 rounded-full flex-shrink-0"></span>
+                        <span class="text-stone-700 font-medium text-sm">Yoga</span>
+                    </div>
+                    <div
+                        class="bg-white border-l-4 border-amber-500 p-4 rounded-r-lg shadow-sm hover:shadow-md transition flex items-center space-x-3">
+                        <span class="w-2 h-2 bg-amber-400 rounded-full flex-shrink-0"></span>
+                        <span class="text-stone-700 font-medium text-sm">Balle donnée</span>
+                    </div>
+                    <div
+                        class="bg-white border-l-4 border-amber-500 p-4 rounded-r-lg shadow-sm hover:shadow-md transition flex items-center space-x-3">
+                        <span class="w-2 h-2 bg-amber-400 rounded-full flex-shrink-0"></span>
+                        <span class="text-stone-700 font-medium text-sm">Golf</span>
+                    </div>
+                    <div
+                        class="bg-white border-l-4 border-amber-500 p-4 rounded-r-lg shadow-sm hover:shadow-md transition flex items-center space-x-3">
+                        <span class="w-2 h-2 bg-amber-400 rounded-full flex-shrink-0"></span>
+                        <span class="text-stone-700 font-medium text-sm">Pétanque</span>
+                    </div>
+                    <div
+                        class="bg-white border-l-4 border-amber-500 p-4 rounded-r-lg shadow-sm hover:shadow-md transition flex items-center space-x-3">
+                        <span class="w-2 h-2 bg-amber-400 rounded-full flex-shrink-0"></span>
+                        <span class="text-stone-700 font-medium text-sm">Peinture et dessin</span>
+                    </div>
+                    <div
+                        class="bg-white border-l-4 border-amber-500 p-4 rounded-r-lg shadow-sm hover:shadow-md transition flex items-center space-x-3">
+                        <span class="w-2 h-2 bg-amber-400 rounded-full flex-shrink-0"></span>
+                        <span class="text-stone-700 font-medium text-sm">Bricolage</span>
+                    </div>
+                    <div
+                        class="bg-white border-l-4 border-amber-500 p-4 rounded-r-lg shadow-sm hover:shadow-md transition flex items-center space-x-3">
+                        <span class="w-2 h-2 bg-amber-400 rounded-full flex-shrink-0"></span>
+                        <span class="text-stone-700 font-medium text-sm">Atelier d'écriture</span>
+                    </div>
+                    <div
+                        class="bg-white border-l-4 border-amber-500 p-4 rounded-r-lg shadow-sm hover:shadow-md transition flex items-center space-x-3">
+                        <span class="w-2 h-2 bg-amber-400 rounded-full flex-shrink-0"></span>
+                        <span class="text-stone-700 font-medium text-sm">Musique (écoute ou initiation)</span>
+                    </div>
+                    <div
+                        class="bg-white border-l-4 border-amber-500 p-4 rounded-r-lg shadow-sm hover:shadow-md transition flex items-center space-x-3">
+                        <span class="w-2 h-2 bg-amber-400 rounded-full flex-shrink-0"></span>
+                        <span class="text-stone-700 font-medium text-sm">Projection de films/documentaires</span>
+                    </div>
+                    <div
+                        class="bg-white border-l-4 border-amber-500 p-4 rounded-r-lg shadow-sm hover:shadow-md transition flex items-center space-x-3">
+                        <span class="w-2 h-2 bg-amber-400 rounded-full flex-shrink-0"></span>
+                        <span class="text-stone-700 font-medium text-sm">Sorties (musées, festivals)</span>
+                    </div>
+                    <div
+                        class="bg-white border-l-4 border-amber-500 p-4 rounded-r-lg shadow-sm hover:shadow-md transition flex items-center space-x-3">
+                        <span class="w-2 h-2 bg-amber-400 rounded-full flex-shrink-0"></span>
+                        <span class="text-stone-700 font-medium text-sm">Club de lecture</span>
+                    </div>
+                    <div
+                        class="bg-white border-l-4 border-amber-500 p-4 rounded-r-lg shadow-sm hover:shadow-md transition flex items-center space-x-3">
+                        <span class="w-2 h-2 bg-amber-400 rounded-full flex-shrink-0"></span>
+                        <span class="text-stone-700 font-medium text-sm">Découverte culturelle</span>
+                    </div>
+                    <div
+                        class="bg-white border-l-4 border-amber-500 p-4 rounded-r-lg shadow-sm hover:shadow-md transition flex items-center space-x-3">
+                        <span class="w-2 h-2 bg-amber-400 rounded-full flex-shrink-0"></span>
+                        <span class="text-stone-700 font-medium text-sm">Jardin communautaire</span>
+                    </div>
+                    <div
+                        class="bg-white border-l-4 border-amber-500 p-4 rounded-r-lg shadow-sm hover:shadow-md transition flex items-center space-x-3">
+                        <span class="w-2 h-2 bg-amber-400 rounded-full flex-shrink-0"></span>
+                        <span class="text-stone-700 font-medium text-sm">Randonnées et nature</span>
+                    </div>
+                    <div
+                        class="bg-white border-l-4 border-amber-500 p-4 rounded-r-lg shadow-sm hover:shadow-md transition flex items-center space-x-3">
+                        <span class="w-2 h-2 bg-amber-400 rounded-full flex-shrink-0"></span>
+                        <span class="text-stone-700 font-medium text-sm">Pique-niques</span>
+                    </div>
+                    <div
+                        class="bg-white border-l-4 border-amber-500 p-4 rounded-r-lg shadow-sm hover:shadow-md transition flex items-center space-x-3">
+                        <span class="w-2 h-2 bg-amber-400 rounded-full flex-shrink-0"></span>
+                        <span class="text-stone-700 font-medium text-sm">Activité saisonnière</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-12 bg-white">
+            <div class="max-w-4xl mx-auto px-4 text-center">
+                <p class="text-stone-600 mb-6 font-medium">Pour connaître l'horaire précis de nos prochaines activités,
+                    consultez notre calendrier sur les réseaux sociaux.</p>
+                <a href="https://www.facebook.com/cafedescollines" target="_blank" rel="noopener noreferrer"
+                    class="inline-flex items-center justify-center bg-blue-600 text-white font-bold py-3 px-8 rounded-full hover:bg-blue-700 transition shadow-md">
+                    Voir les activités sur Facebook
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-stone-900 text-stone-300 py-12 px-4 text-center border-t border-stone-800 mt-auto">
+        <div class="max-w-4xl mx-auto">
+            <div class="flex justify-center mb-6">
+                <img src="Images/CDC_Logo.jpg" alt="Logo"
+                    class="h-12 w-12 rounded-full opacity-50 grayscale hover:grayscale-0 hover:opacity-100 transition duration-300">
+            </div>
+            <h2 class="text-2xl font-bold text-white mb-2">Café des Collines</h2>
+            <p class="mb-2">3689 rue Albert, Rawdon, QC J0K 1S0</p>
+            <p class="mb-6">
+                <a href="mailto:cafedescollines2025@outlook.com"
+                    class="text-amber-500 hover:text-amber-400 transition font-medium">
+                    cafedescollines2025@outlook.com
+                </a>
+            </p>
+            <div
+                class="border-t border-stone-700 pt-6 mt-6 flex flex-col md:flex-row justify-between items-center text-sm text-stone-500">
+                <p>&copy; 2026 Café des Collines. Tous droits réservés.</p>
+                <p class="mt-2 md:mt-0">Conception solidaire à Rawdon.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
